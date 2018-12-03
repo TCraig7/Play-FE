@@ -22,6 +22,13 @@ Once the server is running, visit in your browser:
 
 * `http://localhost:8080/` to run your application.
 
+## Testing
+Once the repo has been cloned down to your computer, you can run tests by running:
+
+```shell
+npm test
+```
+
 ## Built With
 * Javascript
 * JQuery
