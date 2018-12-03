@@ -3,7 +3,7 @@
 Play is an application that allows users to track songs and playlists of their favorite artists. Users are able to search artists and * favorite songs from that artist, as well as add the songs to a newly created playlist.
 
 ## Live View
-This application may be viewed at: [Play](https://tcraig7.github.io/Play/)
+This application may be viewed at: [Play](https://tcraig7.github.io/Play-FE/)
 
 ## Running the Server Locally
   Install the dependencies of the starter kit:
