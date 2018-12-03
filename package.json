@@ -1,0 +1,23 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "Music application",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCraig7/Play.git"
+  },
+  "author": "Tara Craig and Andrew Mockett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TCraig7/Play/issues"
+  },
+  "homepage": "https://github.com/TCraig7/Play#readme"
+}
