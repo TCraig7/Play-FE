@@ -1,0 +1,147 @@
+body {
+  background-color: #101010;
+  background-image: linear-gradient(#101010, #2A1D21);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+footer {
+  height: 45px;
+  background-color: #0a0a0a;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0a0a0a;
+  height: 4rem;
+}
+
+header i {
+  font-size: 1.7rem;
+  float: left;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+header li {
+  margin-right: 1rem;
+}
+
+header li:hover {
+  color: #884E5D;
+  cursor: pointer;
+}
+
+header nav {
+  float: right;
+}
+
+main {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+span h3 {
+  font-size: 1.7rem;
+  float: left;
+  margin-top: 1rem;
+  margin-left: .3rem;
+  weight: 600;
+}
+
+.container-title {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.header-display {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.header-links {
+  background-color: #0a0a0a;
+  color: white;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border-color: #884E5D;
+  border-width: 2px;
+}
+
+.header-links:hover {
+  cursor: pointer;
+  color: #884E5D;
+}
+
+.search-container {
+  border-radius: 15px;
+  background-color: #0a0a0a;
+  text-align: center;
+  width: 50%;
+}
+
+.search-nav-input {
+  border-radius: 10px;
+  text-align: center;
+  margin-right: .2rem;
+}
+
+.search-container-input {
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.songs-container {
+  border-radius: 15px;
+  background-color: #0a0a0a;
+  text-align: center;
+  width: 50%;
+}
+
+.span-title:hover {
+  cursor: pointer;
+}
+
+#nav-app-name {
+  font-size: 1.7rem;
+}
+
+#search-container-button {
+  border-radius: 10px;
+  background-color: #884E5D;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+#search-container-button:hover {
+  cursor: pointer;
+}
+
+#search-nav-button {
+  border-radius: 10px;
+  background-color: #884E5D;
+  color: white;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+#search-nav-button:hover {
+  cursor: pointer;
+}
