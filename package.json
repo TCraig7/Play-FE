@@ -1,7 +1,7 @@
 {
   "name": "play",
   "version": "1.0.0",
-  "description": "Music application",
+  "description": "Front end to the Play Project",
   "main": "index.js",
   "directories": {
     "lib": "lib",
