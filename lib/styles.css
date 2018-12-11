@@ -111,12 +111,31 @@ span h3 {
   padding-right: 1rem;
 }
 
+.song-fav-btn {
+  background-color: #0a0a0a;
+  color: white;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border-color: #884E5D;
+  border-width: 2px;
+}
+
+.song-fav-btn:hover {
+  cursor: pointer;
+  color: #884E5D;
+}
+
 .songs-container {
   border-radius: 15px;
   background-color: #0a0a0a;
   text-align: center;
   width: 70%;
   padding: 1.2rem;
+}
+
+.songs-index-table {
+  align-self: center;
 }
 
 .song-table-header {
