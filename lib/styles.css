@@ -110,6 +110,15 @@ span h3 {
   background-color: #0a0a0a;
   text-align: center;
   width: 50%;
+  padding: 1.2rem;
+}
+
+.songs-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #fff;
+  padding: 1rem;
 }
 
 .span-title:hover {
