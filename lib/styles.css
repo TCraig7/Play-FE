@@ -105,20 +105,33 @@ span h3 {
   width: 150px;
 }
 
+.song-cell {
+  vertical-align: middle;
+  text-align: left;
+  padding-right: 1rem;
+}
+
 .songs-container {
   border-radius: 15px;
   background-color: #0a0a0a;
   text-align: center;
-  width: 50%;
+  width: 70%;
   padding: 1.2rem;
 }
 
-.songs-index {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.song-table-header {
+  height: 25px;
   border-bottom: 1px solid #fff;
-  padding: 1rem;
+}
+
+.song-table-header-cell {
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.song-table-row {
+  border-bottom: 1px solid #fff;
+  height: 30px;
 }
 
 .span-title:hover {
