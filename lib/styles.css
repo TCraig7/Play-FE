@@ -66,6 +66,20 @@ span h3 {
   font-size: 2rem;
 }
 
+.fas {
+  float: left;
+}
+
+.fas-nav {
+  float: left;
+  padding-left: .3rem;
+  weight: 700;
+}
+
+.fas-nav:hover {
+  cursor: pointer;
+}
+
 .header-display {
   display: inline-block;
   margin-top: 1.5rem;
