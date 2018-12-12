@@ -16,7 +16,7 @@
       </span>
       <nav>
         <ul>
-          <button class="header-display header-links">Favorites</button>
+          <button class="header-display header-links" id="nav-fav-btn">Favorites</button>
           <button class="header-display header-links">Playlists</button>
           <input class="search-nav-input header-display" placeholder="Artist Name"</>
           <button class="header-display search-button" id="search-nav-button" type="button">SEARCH</button>
@@ -32,6 +32,19 @@
       <section class="songs-container" style="display:none;">
         <i class="fas fa-search fas-nav"></i><i class="fas-nav">Back to Search</i>
         <div class="container-title">Songs for Artist</div>
+        <table class="songs-index-table">
+          <tr class="song-table-header">
+            <th class="song-table-header-cell"></th>
+            <th class="song-table-header-cell">Song Title</th>
+            <th class="song-table-header-cell">Artist</th>
+            <th class="song-table-header-cell">Genre</th>
+            <th class="song-table-header-cell">Rating</th>
+          </tr>
+        </table>
+      </section>
+      <section class="favorites-container" style="display:none;">
+        <i class="fas fa-search fas-fav"></i><i class="fas-nav">Back to Artist Search</i>
+        <div class="container-title">Favorite Songs</div>
         <table class="songs-index-table">
           <tr class="song-table-header">
             <th class="song-table-header-cell"></th>

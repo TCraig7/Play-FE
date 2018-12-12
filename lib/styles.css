@@ -80,6 +80,14 @@ span h3 {
   cursor: pointer;
 }
 
+.favorites-container {
+  border-radius: 15px;
+  background-color: #0a0a0a;
+  text-align: center;
+  width: 70%;
+  padding: 1.2rem;
+}
+
 .header-display {
   display: inline-block;
   margin-top: 1.5rem;
