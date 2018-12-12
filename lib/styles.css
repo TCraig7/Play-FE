@@ -11,8 +11,8 @@ body {
 footer {
   height: 45px;
   background-color: #0a0a0a;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
   width:100%;
 }
 
@@ -66,6 +66,20 @@ span h3 {
   font-size: 2rem;
 }
 
+.fas {
+  float: left;
+}
+
+.fas-nav {
+  float: left;
+  padding-left: .3rem;
+  weight: 700;
+}
+
+.fas-nav:hover {
+  cursor: pointer;
+}
+
 .header-display {
   display: inline-block;
   margin-top: 1.5rem;
@@ -105,11 +119,52 @@ span h3 {
   width: 150px;
 }
 
+.song-cell {
+  vertical-align: middle;
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.song-fav-btn {
+  background-color: #0a0a0a;
+  color: white;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border-color: #884E5D;
+  border-width: 2px;
+}
+
+.song-fav-btn:hover {
+  cursor: pointer;
+  color: #884E5D;
+}
+
 .songs-container {
   border-radius: 15px;
   background-color: #0a0a0a;
   text-align: center;
-  width: 50%;
+  width: 70%;
+  padding: 1.2rem;
+}
+
+.songs-index-table {
+  align-self: center;
+}
+
+.song-table-header {
+  height: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+.song-table-header-cell {
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.song-table-row {
+  border-bottom: 1px solid #fff;
+  height: 30px;
 }
 
 .span-title:hover {
