@@ -17,7 +17,7 @@
       <nav>
         <ul>
           <button class="header-display header-links" id="nav-fav-btn">Favorites</button>
-          <button class="header-display header-links">Playlists</button>
+          <button class="header-display header-links" id="nav-playlist-btn">Playlists</button>
           <input class="search-nav-input header-display" placeholder="Artist Name"</>
           <button class="header-display search-button" id="search-nav-button" type="button">SEARCH</button>
         </ul>
@@ -42,11 +42,37 @@
           </tr>
         </table>
       </section>
-      <section class="favorites-container" style="display:none;">
+      <section class="favorites-container" style="display:none">
         <div class="container-title">Favorite Songs</div>
         <table class="favorites-index-table">
           <tr class="song-table-header">
+            <th class="song-table-header-cell">Choose a Playlist</th>
             <th class="song-table-header-cell"></th>
+            <th class="song-table-header-cell">Song Title</th>
+            <th class="song-table-header-cell">Artist</th>
+            <th class="song-table-header-cell">Genre</th>
+            <th class="song-table-header-cell">Rating</th>
+          </tr>
+        </table>
+      </section>
+      <section class="playlists-container" style="display:none">
+        <div class="container-title">Playlists</div>
+        <button class="create-playlist-btn" id="create-new-playlist"type="button">Create a New Playlist</button><br>
+        <input class="playlist-name-input" placeholder="Playlist Name" style="display:none"</>
+        <button class="create-playlist-btn" id="create-button" type="button" style="display:none">Create</button>
+        <button class="create-playlist-btn" id="cancel-button" type="button" style="display:none">Cancel</button>
+        <table class="playlists-index-table">
+          <tr class="song-table-header">
+            <th class="song-table-header-cell">Playlist ID</th>
+            <th class="song-table-header-cell">Playlist</th>
+          </tr>
+        </table>
+      </section>
+      <section class="single-playlist-container" style="display:none">
+        <i class="far fa-arrow-alt-circle-left" id="playlist-back"></i><i id="playlist-back">Back to Playlists</i>
+        <div class="container-title">Playlist</div>
+        <table class="playlist-show-table">
+          <tr class="song-table-header">
             <th class="song-table-header-cell">Song Title</th>
             <th class="song-table-header-cell">Artist</th>
             <th class="song-table-header-cell">Genre</th>

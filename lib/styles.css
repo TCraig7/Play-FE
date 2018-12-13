@@ -66,6 +66,22 @@ span h3 {
   font-size: 2rem;
 }
 
+.create-playlist-btn {
+  background-color: #0a0a0a;
+  color: white;
+  font-size: 1rem;
+  margin-left: .5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border-color: #884E5D;
+  border-width: 2px;
+}
+
+.create-playlist-btn:hover {
+  cursor: pointer;
+  color: #884E5D;
+}
+
 .fas {
   float: left;
 }
@@ -110,6 +126,28 @@ span h3 {
   color: #884E5D;
 }
 
+.playlists-container {
+  border-radius: 15px;
+  background-color: #0a0a0a;
+  text-align: center;
+  width: 50%;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlist-name-input {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.playlist-title-link {
+  background:none;
+  border:none;
+  text-decoration: underline;
+  color: white;
+}
+
 .search-container {
   border-radius: 15px;
   background-color: #0a0a0a;
@@ -127,6 +165,14 @@ span h3 {
   border-radius: 10px;
   text-align: center;
   width: 150px;
+}
+
+.single-playlist-container {
+  border-radius: 15px;
+  background-color: #0a0a0a;
+  text-align: center;
+  width: 50%;
+  padding: 1.2rem;
 }
 
 .song-cell {
@@ -185,12 +231,19 @@ span h3 {
   font-size: 1.7rem;
 }
 
+#playlist-back {
+  float: left;
+}
+
+#playlist-back:hover {
+  cursor: pointer;
+}
+
 #search-container-button {
   border-radius: 10px;
   background-color: #884E5D;
   color: white;
   font-size: 1rem;
-  font-weight: 600;
   margin: 1rem;
   margin-bottom: 2rem;
 }
@@ -203,7 +256,6 @@ span h3 {
   border-radius: 10px;
   background-color: #884E5D;
   color: white;
-  font-weight: 600;
   margin-right: 1rem;
 }
 
