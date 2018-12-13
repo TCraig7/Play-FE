@@ -6,6 +6,7 @@ Play-FE builds on the endpoints from the back-end application play-be: [play-be]
 
 ## Live View
 This application may be viewed at: [Play](https://tcraig7.github.io/Play-FE/)
+
 **Landing Page**
 ![image](https://user-images.githubusercontent.com/36015215/49953802-2c93f180-febc-11e8-8b64-3981f46b0437.png)
 
