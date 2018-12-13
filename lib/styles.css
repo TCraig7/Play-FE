@@ -141,6 +141,12 @@ span h3 {
   text-align: center;
 }
 
+.playlist-title-link {
+  background:none;
+  border:none;
+  text-decoration: underline;
+}
+
 .search-container {
   border-radius: 15px;
   background-color: #0a0a0a;
