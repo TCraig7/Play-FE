@@ -42,7 +42,7 @@
           </tr>
         </table>
       </section>
-      <section class="favorites-container" style="display:none;">
+      <section class="favorites-container" style="display:none">
         <div class="container-title">Favorite Songs</div>
         <table class="favorites-index-table">
           <tr class="song-table-header">
@@ -56,7 +56,10 @@
       </section>
       <section class="playlists-container">
         <div class="container-title">Playlists</div>
-        <button class="playlist-btn" type="button">Create a New Playlist</button>
+        <button class="create-playlist-btn" id="create-new-playlist"type="button">Create a New Playlist</button><br>
+        <input class="playlist-name-input" placeholder="Playlist Name" style="display:none"</>
+        <button class="create-playlist-btn" id="create-button" type="button" style="display:none">Create</button>
+        <button class="create-playlist-btn" id="cancel-button" type="button" style="display:none">Cancel</button>
         <table class="playlists-index-table">
           <tr class="song-table-header">
             <th class="song-table-header-cell">Playlist ID</th>
