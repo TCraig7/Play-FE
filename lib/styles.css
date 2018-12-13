@@ -160,6 +160,14 @@ span h3 {
   width: 150px;
 }
 
+.single-playlist-container {
+  border-radius: 15px;
+  background-color: #0a0a0a;
+  text-align: center;
+  width: 50%;
+  padding: 1.2rem;
+}
+
 .song-cell {
   vertical-align: middle;
   text-align: left;
@@ -214,6 +222,14 @@ span h3 {
 
 #nav-app-name {
   font-size: 1.7rem;
+}
+
+#playlist-back {
+  float: left;
+}
+
+#playlist-back:hover {
+  cursor: pointer;
 }
 
 #search-container-button {
